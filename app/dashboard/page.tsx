@@ -1,0 +1,62 @@
+import React from "react";
+import Sidebar from "./ui/Sidebar";
+import Layout from "./layout";
+import Image from "next/image";
+import LocationDateFlag from "./ui/LocationDateFlag";
+import ProfileButton from "./ui/ProfileButton";
+
+type Props = {};
+
+const Dashboard = (props: Props) => {
+  return (
+    <Layout>
+      <div className="relative h-screen">
+        <div className=" py-10 px-8 ">
+          <div className=" relative">
+            <div className="absolute w-full pl-8">
+              <Image
+                className="w-[90px] md:w-[129px]"
+                alt=""
+                width={129}
+                height={60}
+                src={"/Assets/zdoc.svg"}
+              />
+            </div>
+            <div className="flex gap-10 absolute right-0">
+              <LocationDateFlag />
+              <ProfileButton />
+            </div>
+            <div className="absolute top-12 right-0">
+              <Image
+                className="  w-[143px] md:w-[183px]"
+                alt=""
+                width={183}
+                height={40}
+                src={"/Assets/zima.svg"}
+              />
+            </div>
+            <h1 className="absolute top-28 right-0">try for free</h1>
+            <div className="absolute hidden  md:flex justify-center w-full">
+              <Image
+                className="  w-[143px] md:w-[183px]"
+                alt=""
+                width={204}
+                height={50}
+                src={"/Assets/avav.svg"}
+              />
+            </div>
+          </div>
+        </div>
+        <Image
+          className=" absolute bottom-0 right-0 w-[340px] md:w-[400px] lg:w-[480px] 3xl:w-[541px]"
+          alt=""
+          width={541}
+          height={841}
+          src={"/Assets/mainpanel.png"}
+        />
+      </div>
+    </Layout>
+  );
+};
+
+export default Dashboard;
