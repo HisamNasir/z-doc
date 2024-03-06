@@ -36,7 +36,7 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
           />
         </div>
       </div>
-      <h1 className=" text-3xl text-center  2xl:text-4xl tracking-[0.2em] text-[#ffffff37]">
+      <h1 className=" text-center text-lg md:text-3xl 2xl:text-4xl tracking-[0.2em] text-[#ffffff37]">
         Products
       </h1>
       <div className=" flex flex-col 2xl:gap-4">
