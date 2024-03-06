@@ -19,7 +19,7 @@ const Dashboard = (props: Props) => {
                 alt=""
                 width={129}
                 height={60}
-                src={"/Assets/zdoc.svg"}
+                src={"/Assets/ZDoc.svg"}
               />
             </div>
             <div className="flex items-center gap-4 md:gap-6 lg:gap-10 absolute right-0">
