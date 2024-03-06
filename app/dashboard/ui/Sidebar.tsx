@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import SubMenu, { SubMenuProps } from "./SubMenu";
+import SubMenu from "./SubMenu";
 import Image from "next/image";
 
 interface LeftSidebarProps {}
