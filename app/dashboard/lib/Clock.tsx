@@ -68,7 +68,7 @@ const Clock: React.FC = () => {
           <p>
             <span>
               {locationData.time && locationData.time.split(" at ")[1]}
-            </span>
+            </span>{" "}
             <span>{locationData.city}</span> <span>{locationData.country}</span>
           </p>
           <p className="text-[#BE9F56]">
@@ -78,7 +78,7 @@ const Clock: React.FC = () => {
             </span>
             <span>
               {locationData.monthYear && locationData.monthYear.split(" ")[0]}
-            </span>
+            </span>{" "}
             <span>
               {locationData.time && locationData.time.split(" at ")[0]}
             </span>

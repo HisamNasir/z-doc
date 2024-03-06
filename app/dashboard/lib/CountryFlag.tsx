@@ -21,7 +21,7 @@ const CountryFlag = () => {
             width={25}
             height={25}
             alt={countryCode}
-            src={`http://purecatamphetamine.github.io/country-flag-icons/3x2/${countryCode}.svg`}
+            src={`https://purecatamphetamine.github.io/country-flag-icons/3x2/${countryCode}.svg`}
           />
         </div>
       )}
