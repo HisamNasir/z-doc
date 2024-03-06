@@ -17,7 +17,6 @@ const NavButton = ({ type, text, onClick, actionButton }: buttonProps) => {
     >
       {text}
     </button>
-
   );
 };
 

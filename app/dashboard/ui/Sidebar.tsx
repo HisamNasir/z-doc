@@ -139,7 +139,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
           </div>
           <p className="text-[#BE9F56] -rotate-90 max-w-min max-h-min ">|</p>
           <div
-            className=" text-white uppercase text-xs flex hover:bg-gray-700"
+            className=" text-white uppercase text-xs cursor-pointer"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
@@ -158,7 +158,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
           </div>
           <p className="text-[#BE9F56] -rotate-90 max-w-min max-h-min ">|</p>
           <div
-            className=" text-white uppercase text-xs  hover:bg-gray-700"
+            className=" text-white uppercase text-xs cursor-pointer"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",

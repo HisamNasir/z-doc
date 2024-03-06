@@ -4,10 +4,10 @@ import CountryFlag from "../lib/CountryFlag";
 
 const LocationDateFlag = () => {
   return (
-    <div className=" ">
-      <div className="w-full gap-10 flex items-center">
+    <div className="text-right leading-tight text-xs ">
+      <div className="w-full gap-6 lg:gap-10 flex items-center">
         <Clock />
-        <div className=" hidden lg:block">
+        <div className=" hidden lg:flex">
           <CountryFlag />
         </div>
       </div>

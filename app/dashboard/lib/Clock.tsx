@@ -62,7 +62,7 @@ const Clock: React.FC = () => {
   }, []);
 
   return (
-    <div className="text-right leading-tight text-xs">
+    <div className="">
       {locationData ? (
         <div>
           <p>
