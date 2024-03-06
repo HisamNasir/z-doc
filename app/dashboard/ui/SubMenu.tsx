@@ -9,9 +9,9 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
   return (
     <div className=" p-2 pr-3 cursor-default flex flex-col justify-between pb-9 w-full h-full text-white relative ">
       <div className=" flex relative" id="content">
-        <div className=" flex flex-col xl:gap-3.5 items-center  ">
+        <div className=" flex flex-col 2xl:gap-3.5 items-center  ">
           <Image
-            className="  w-[6px] sm:w-[7px] lg:w-[8px] 2xl:w-[10px] h-auto"
+            className="  w-[6px] sm:w-[7px] lg:w-[8px] 22xl:w-[10px] h-auto"
             src={"/Assets/sidebarBtn/products.svg"}
             width={10}
             height={10}
@@ -28,7 +28,7 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
         </div>
         <div className=" flex w-full justify-center absolute bottom-0">
           <Image
-            className=" w-[70px] lg:w-[90px] xl:w-[129px]  invert"
+            className=" w-[70px] lg:w-[90px] 2xl:w-[129px]  invert"
             alt=""
             width={129}
             height={60}
@@ -36,11 +36,13 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
           />
         </div>
       </div>
-      <h1 className="  text-4xl tracking-[0.2em] text-[#ffffff37]">Products</h1>
-      <div className=" flex flex-col xl:gap-4">
-        <div className=" flex flex-col  xl:gap-3">
+      <h1 className="  text-42xl tracking-[0.2em] text-[#ffffff37]">
+        Products
+      </h1>
+      <div className=" flex flex-col 2xl:gap-4">
+        <div className=" flex flex-col  2xl:gap-3">
           <p className="text-end  text-[10px]">signature</p>
-          <div className="flex flex-col xl:gap-3">
+          <div className="flex flex-col 2xl:gap-3">
             <div className="flex flex-col gap-1">
               <h3 className="hover:opacity-80  text-[10px]">
                 ELECTRONIC SIGNATURE
@@ -65,10 +67,10 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
             </div>
           </div>
         </div>
-        <div className="  flex flex-col xl:gap-3">
+        <div className="  flex flex-col 2xl:gap-3">
           <p className=" text-end text-[10px] ">CONTRACTS</p>
-          <div className=" flex flex-col xl:gap-3">
-            <div className=" flex flex-col xl:gap-1">
+          <div className=" flex flex-col 2xl:gap-3">
+            <div className=" flex flex-col 2xl:gap-1">
               <h3 className="hover:opacity-80  text-[10px]">
                 CONTRACT/AGREEMENT MANAGEMENT
               </h3>
@@ -76,7 +78,7 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
                 ORGANISED, AUTOMATED DUCUMENT WORKFLOWS
               </p>
             </div>
-            <div className="flex flex-col xl:gap-1">
+            <div className="flex flex-col 2xl:gap-1">
               <h3 className="hover:opacity-80  text-[10px]">
                 DOCUMENT GENERATION
               </h3>
@@ -84,7 +86,7 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
                 GENERATE DOCUMENTS SEAMLESSLY THROUGH YOUR DEDICATED PORTAL
               </p>
             </div>
-            <div className="flex flex-col xl:gap-1">
+            <div className="flex flex-col 2xl:gap-1">
               <h3 className="hover:opacity-80  text-[10px]">DATA SECURITY</h3>
               <p className="hover:opacity-80   text-[#ffffff57]">
                 ALL SIGNATURES, CONTRACTS, AGREEMENTS, DOCUMENTS AND WITNESS
@@ -94,10 +96,10 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
             </div>
           </div>
         </div>
-        <div className="  flex flex-col gap-1.5 xl:gap-3">
+        <div className="  flex flex-col gap-1.5 2xl:gap-3">
           <p className=" text-end text-[10px] ">HISTORY</p>
-          <div className=" flex flex-col  xl:gap-3">
-            <div className=" flex flex-col xl:gap-1">
+          <div className=" flex flex-col  2xl:gap-3">
+            <div className=" flex flex-col 2xl:gap-1">
               <h3 className="hover:opacity-80  text-[10px]">DOC.SAFE</h3>
               <p className="hover:opacity-80   text-[#ffffff57]">
                 SEARCH, VIEW, DOWNLOAD AND SHARE EVERY SIGNATURE, CONTRACT,
@@ -106,22 +108,22 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
             </div>
           </div>
         </div>
-        <div className="  flex flex-col gap-1 xl:gap-2">
+        <div className="  flex flex-col gap-1 2xl:gap-2">
           <p className=" text-end text-[10px] ">more</p>
-          <div className=" flex flex-col  xl:gap-3">
-            <div className=" flex flex-col xl:gap-1">
+          <div className=" flex flex-col  2xl:gap-3">
+            <div className=" flex flex-col 2xl:gap-1">
               <h3 className="hover:opacity-80  text-[10px]">PAYMENTS</h3>
               <p className="hover:opacity-80   text-[#ffffff57]">
                 AGREE, SIGN AND MAKE PAYMENT(S) IN A SINGLE CLICK
               </p>
             </div>
-            <div className=" flex flex-col xlgap-1">
+            <div className=" flex flex-col 2xlgap-1">
               <h3 className="hover:opacity-80  text-[10px]">CLICKWRAPS</h3>
               <p className="hover:opacity-80   text-[#ffffff57]">
                 CAPTURE CONSENT WITH A SINGLE CLICK
               </p>
             </div>
-            <div className="flex flex-col xl:gap-1">
+            <div className="flex flex-col 2xl:gap-1">
               <h3 className="hover:opacity-80  text-[10px]">WEB FORMS</h3>
               <p className="hover:opacity-80   text-[#ffffff57]">
                 INCORPORATE DATA COLLECTION AND SPEED UP SIGNING
@@ -130,7 +132,7 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
           </div>
         </div>
       </div>
-      <button className="hover:opacity-80  fixed bottom-4 hover:text-blue-400 transition-all duration-500 right-4 uppercase text-xs tracking-widest flex items-center gap-1 xl:gap-2">
+      <button className="hover:opacity-80  fixed bottom-4 hover:text-blue-400 transition-all duration-500 right-4 uppercase text-xs tracking-widest flex items-center gap-1 2xl:gap-2">
         <span>all products</span>
         <Image
           className="hover:opacity-80  h-auto"
