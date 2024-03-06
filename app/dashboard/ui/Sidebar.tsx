@@ -20,7 +20,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
 
   const handleDivClick = (items: string[]) => {
     setSubMenuItems(items);
-    setShowSubMenu((prev) => !prev);
+    setShowSubMenu((prev) => !prev); // Toggle submenu visibility
   };
 
   const handleClickOutside = (event: MouseEvent) => {
@@ -41,10 +41,10 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
 
   return (
     <div className="flex  h-full max-h-screen ">
-      <div className=" bg-black w-[34px] flex justify-center h-full min-h-screen ">
-        <div className=" grid grid-cols-1 py-2  items-center">
+      <div className=" bg-black w-[34px] flex  h-full min-h-screen ">
+        <div className=" grid grid-flow-row py-2 w-full justify-center items-center">
           <div
-            className=" text-white uppercase text-xs cursor-pointer"
+            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 1 - Item 1",
@@ -61,9 +61,16 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
               alt=""
             />
           </div>
-          <p className="text-[#BE9F56] -rotate-90 max-w-min max-h-min ">|</p>
+
+          <Image
+            src={"/Assets/sidebarBtn/divider.svg"}
+            className=" bg-black h-[1px] "
+            width={18}
+            height={1}
+            alt=""
+          />
           <div
-            className=" text-white uppercase text-xs cursor-pointer"
+            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 2 - Item 1",
@@ -80,9 +87,16 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
               alt=""
             />
           </div>
-          <p className="text-[#BE9F56] -rotate-90 max-w-min max-h-min ">|</p>
+
+          <Image
+            src={"/Assets/sidebarBtn/divider.svg"}
+            className=" bg-black h-[1px] "
+            width={18}
+            height={1}
+            alt=""
+          />
           <div
-            className=" text-white uppercase text-xs cursor-pointer"
+            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
@@ -99,9 +113,16 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
               alt=""
             />
           </div>
-          <p className="text-[#BE9F56] -rotate-90 max-w-min max-h-min ">|</p>
+
+          <Image
+            src={"/Assets/sidebarBtn/divider.svg"}
+            className=" bg-black h-[1px] "
+            width={18}
+            height={1}
+            alt=""
+          />
           <div
-            className=" text-white uppercase text-xs cursor-pointer"
+            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
@@ -118,9 +139,16 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
               alt=""
             />
           </div>
-          <p className="text-[#BE9F56] -rotate-90 max-w-min max-h-min ">|</p>
+
+          <Image
+            src={"/Assets/sidebarBtn/divider.svg"}
+            className=" bg-black h-[1px] "
+            width={18}
+            height={1}
+            alt=""
+          />
           <div
-            className=" text-white uppercase text-xs cursor-pointer"
+            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
@@ -137,9 +165,16 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
               alt=""
             />
           </div>
-          <p className="text-[#BE9F56] -rotate-90 max-w-min max-h-min ">|</p>
+
+          <Image
+            src={"/Assets/sidebarBtn/divider.svg"}
+            className=" bg-black h-[1px] "
+            width={18}
+            height={1}
+            alt=""
+          />
           <div
-            className=" text-white uppercase text-xs cursor-pointer"
+            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
@@ -156,9 +191,16 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
               alt=""
             />
           </div>
-          <p className="text-[#BE9F56] -rotate-90 max-w-min max-h-min ">|</p>
+
+          <Image
+            src={"/Assets/sidebarBtn/divider.svg"}
+            className=" bg-black h-[1px] "
+            width={18}
+            height={1}
+            alt=""
+          />
           <div
-            className=" text-white uppercase text-xs cursor-pointer"
+            className=" text-white uppercase text-xs  hover:bg-gray-700"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
