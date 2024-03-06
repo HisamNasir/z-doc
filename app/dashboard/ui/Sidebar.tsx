@@ -54,7 +54,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             }
           >
             <Image
-              className=" w-[6px] sm:w-[7px] lg:w-[8px] 3xl:w-[10px] h-auto"
+              className=" w-[6px] sm:w-[7px] lg:w-[8px] 2xl:w-[10px] h-auto"
               src={"/Assets/sidebarBtn/products.svg"}
               width={10}
               height={10}
@@ -80,7 +80,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             }
           >
             <Image
-              className=" w-[6px] sm:w-[7px] lg:w-[8px] 3xl:w-[10px] h-auto"
+              className=" w-[6px] sm:w-[7px] lg:w-[8px] 2xl:w-[10px] h-auto"
               src={"/Assets/sidebarBtn/solutions.svg"}
               width={10}
               height={10}
@@ -106,7 +106,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             }
           >
             <Image
-              className=" w-[6px] sm:w-[7px] lg:w-[8px] 3xl:w-[10px] h-auto"
+              className=" w-[6px] sm:w-[7px] lg:w-[8px] 2xl:w-[10px] h-auto"
               src={"/Assets/sidebarBtn/documentations.svg"}
               width={10}
               height={10}
@@ -132,7 +132,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             }
           >
             <Image
-              className=" w-[6px] sm:w-[7px] lg:w-[8px] 3xl:w-[10px] h-auto"
+              className=" w-[6px] sm:w-[7px] lg:w-[8px] 2xl:w-[10px] h-auto"
               src={"/Assets/sidebarBtn/signature.svg"}
               width={10}
               height={10}
@@ -158,7 +158,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             }
           >
             <Image
-              className=" w-[6px] sm:w-[7px] lg:w-[8px] 3xl:w-[10px] h-auto"
+              className=" w-[6px] sm:w-[7px] lg:w-[8px] 2xl:w-[10px] h-auto"
               src={"/Assets/sidebarBtn/industries.svg"}
               width={10}
               height={10}
@@ -184,7 +184,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             }
           >
             <Image
-              className=" w-[6px] sm:w-[7px] lg:w-[8px] 3xl:w-[10px] h-auto"
+              className=" w-[6px] sm:w-[7px] lg:w-[8px] 2xl:w-[10px] h-auto"
               src={"/Assets/sidebarBtn/encryption.svg"}
               width={10}
               height={10}
@@ -200,7 +200,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             alt=""
           />
           <div
-            className=" text-white uppercase text-xs  hover:bg-gray-700"
+            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
@@ -210,7 +210,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             }
           >
             <Image
-              className=" w-[6px] sm:w-[7px] lg:w-[8px] 3xl:w-[10px] h-auto"
+              className=" w-[6px] sm:w-[7px] lg:w-[8px] 2xl:w-[10px] h-auto"
               src={"/Assets/sidebarBtn/pricing.svg"}
               width={10}
               height={10}

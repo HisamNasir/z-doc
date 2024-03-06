@@ -7,11 +7,11 @@ interface SubMenuProps {
 
 const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
   return (
-    <div className=" p-2 w-full h-full text-white relative">
-      <div className="flex " id="content">
-        <div className="flex flex-col gap-2 items-center ">
+    <div className=" p-2 flex flex-col gap-4 w-full h-full text-white relative uppercase">
+      <div className="flex relative" id="content">
+        <div className="flex flex-col gap-2.5 items-center  ">
           <Image
-            className=" w-[6px] sm:w-[7px] lg:w-[8px] 3xl:w-[10px] h-auto"
+            className=" w-[6px] sm:w-[7px] lg:w-[8px] 2xl:w-[10px] h-auto"
             src={"/Assets/sidebarBtn/products.svg"}
             width={10}
             height={10}
@@ -26,7 +26,7 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
             alt=""
           />
         </div>
-        <div className="flex items-end w-full pl-8">
+        <div className="flex w-full justify-center absolute bottom-0">
           <Image
             className="w-[70px] lg:w-[90px] xl:w-[129px]  invert"
             alt=""
@@ -36,6 +36,8 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
           />
         </div>
       </div>
+      <h1 className=" text-4xl tracking-[0.2em] text-[#ffffff60]">Products</h1>
+      <p>signature</p>
       <button className=" absolute bottom-4 hover:text-blue-400 transition-all duration-500 right-4 uppercase text-xs tracking-widest flex items-center gap-2">
         <span>all products</span>
         <Image
