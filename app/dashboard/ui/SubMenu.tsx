@@ -1,7 +1,9 @@
 import Image from "next/image";
 import React from "react";
 
-interface SubMenuProps {}
+interface SubMenuProps {
+  items: string[];
+}
 
 const SubMenu: React.FC<SubMenuProps> = ({}) => {
   return (

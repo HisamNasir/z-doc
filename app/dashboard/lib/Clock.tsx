@@ -1,14 +1,17 @@
 "use client";
 import { useEffect, useState } from "react";
 import axios from "axios";
+
+interface LocationData {
+  city: string;
+  country: string;
+  weekday: string;
+  monthYear: string;
+  time: string;
+}
+
 const Clock: React.FC = () => {
-  const [locationData, setLocationData] = useState<{
-    city: string;
-    country: string;
-    weekday: string;
-    monthYear: string;
-    time: string;
-  } | null>(null);
+  const [locationData, setLocationData] = useState<LocationData | null>(null);
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
@@ -28,7 +31,7 @@ const Clock: React.FC = () => {
           const country = address.country;
 
           const date = new Date();
-          const options = {
+          const options: Intl.DateTimeFormatOptions = {
             weekday: "long",
             year: "numeric",
             month: "long",

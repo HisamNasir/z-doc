@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import SubMenu from "./SubMenu";
+import SubMenu, { SubMenuProps } from "./SubMenu";
 import Image from "next/image";
 
 interface LeftSidebarProps {}
@@ -20,7 +20,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
 
   const handleDivClick = (items: string[]) => {
     setSubMenuItems(items);
-    setShowSubMenu((prev) => !prev); // Toggle submenu visibility
+    setShowSubMenu((prev) => !prev);
   };
 
   const handleClickOutside = (event: MouseEvent) => {
