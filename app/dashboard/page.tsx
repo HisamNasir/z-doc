@@ -48,7 +48,7 @@ const Dashboard = (props: Props) => {
           </div>
         </nav>
         <Image
-          className=" absolute bottom-0 right-0 w-5/6 sm:w-[510px] xl:w-[370px] 2xl:w-[541px]"
+          className=" absolute bottom-0 right-0 w-5/6 sm:w-[310px] xl:w-[370px] 2xl:w-[541px]"
           alt=""
           width={541}
           height={841}
