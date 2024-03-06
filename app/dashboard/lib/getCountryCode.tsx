@@ -1,9 +1,8 @@
 import axios from "axios";
 const getCountryCode = async () => {
   try {
-    const response = await axios.get(
-      `http://api.ipstack.com/check?access_key=5d6926314489a236e9566eac61f0f245`
-    );
+    const response = await axios.get("https://get.geojs.io/v1/ip/geo.json");
+
     console.log("ipstack response:", response.data);
     const countryCode = response.data.country_code;
     return countryCode;
