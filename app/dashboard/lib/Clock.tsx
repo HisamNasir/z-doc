@@ -66,14 +66,22 @@ const Clock: React.FC = () => {
       {locationData ? (
         <div>
           <p>
-            <span>{locationData.time.split(" at ")[1]}</span> 
-            <span>{locationData.city}</span> <span>{locationData.country}</span>
+            <span>
+              {locationData.time && locationData.time.split(" at ")[1]}
+            </span>
+            <span>{locationData.city}</span> <span>{locationData.country}</span>
           </p>
           <p className="text-[#BE9F56]">
             <span>{locationData.weekday}</span>
-            <span>{locationData.monthYear.split(" ")[1]}</span> 
-            <span>{locationData.monthYear.split(" ")[0]}</span> 
-            <span>{locationData.time.split(" at ")[0]}</span>
+            <span>
+              {locationData.monthYear && locationData.monthYear.split(" ")[1]}
+            </span>
+            <span>
+              {locationData.monthYear && locationData.monthYear.split(" ")[0]}
+            </span>
+            <span>
+              {locationData.time && locationData.time.split(" at ")[0]}
+            </span>
           </p>
         </div>
       ) : (
