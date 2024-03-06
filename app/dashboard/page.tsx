@@ -15,7 +15,7 @@ const Dashboard = (props: Props) => {
           <div className=" relative">
             <div className=" h-[59px] flex relative items-center">
               <Image
-                className="fixed hidden sm:flex [70px] lg:w-[90px] 2xl:w-[129px] "
+                className="fixed hidden sm:flex w-[70px] lg:w-[90px] 2xl:w-[129px] "
                 alt=""
                 width={129}
                 height={60}
