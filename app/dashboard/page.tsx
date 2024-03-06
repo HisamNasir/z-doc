@@ -11,7 +11,7 @@ const Dashboard = (props: Props) => {
   return (
     <Layout>
       <div className="relative h-screen">
-        <nav className=" py-11 px-16 ">
+        <nav className=" py-8 2xl:py-11 px-12 2xl:px-16 ">
           <div className=" relative">
             <div className=" h-[59px] flex relative items-center">
               <Image
