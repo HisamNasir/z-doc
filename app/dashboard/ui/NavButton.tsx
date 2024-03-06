@@ -13,7 +13,7 @@ const NavButton = ({ type, text, onClick, actionButton }: buttonProps) => {
     <button
       onClick={onClick}
       type={type}
-      className="text-white uppercase  max-w-min -rotate-90  hover:bg-gray-700"
+      className="text-white   max-w-min -rotate-90  hover:bg-gray-700"
     >
       {text}
     </button>

@@ -7,9 +7,9 @@ interface SubMenuProps {
 
 const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
   return (
-    <div className=" p-2 flex flex-col gap-4 w-full h-full text-white relative uppercase">
+    <div className=" p-2 flex flex-col justify-between pb-9 w-full h-full text-white relative ">
       <div className="flex relative" id="content">
-        <div className="flex flex-col gap-2.5 items-center  ">
+        <div className="flex flex-col gap-3.5 items-center  ">
           <Image
             className=" w-[6px] sm:w-[7px] lg:w-[8px] 2xl:w-[10px] h-auto"
             src={"/Assets/sidebarBtn/products.svg"}
@@ -36,9 +36,93 @@ const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
           />
         </div>
       </div>
-      <h1 className=" text-4xl tracking-[0.2em] text-[#ffffff60]">Products</h1>
-      <p>signature</p>
-      <button className=" absolute bottom-4 hover:text-blue-400 transition-all duration-500 right-4 uppercase text-xs tracking-widest flex items-center gap-2">
+      <h1 className=" text-4xl tracking-[0.2em] text-[#ffffff37]">Products</h1>
+      <div className=" flex flex-col gap-4">
+        <div className=" flex flex-col gap-3">
+          <p className="text-end  text-[10px]">signature</p>
+          <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-1">
+              <h3 className=" text-[10px]">ELECTRONIC SIGNATURE</h3>
+              <p className="  text-[#ffffff57]">
+                WORLDS MOST SECURE WAY TO SIGN AND SEND
+              </p>
+            </div>
+            <div className="flex flex-col gap-1">
+              <h3 className=" text-[10px]">E-WITNESS</h3>
+              <p className="  text-[#ffffff57]">
+                WITNESS & SIGN CONFIDENTIAL AND HIGH VALUE AGREEMENTS/CONTRACTS
+              </p>
+            </div>
+            <div className="flex flex-col gap-1">
+              <h3 className=" text-[10px]">IDENTITY VERIFICATION</h3>
+              <p className="  text-[#ffffff57]">
+                WORKING SEAMLESSLY WITH AES 256-BIT ENCRYPTION AND ZIMO MEET
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className=" flex flex-col gap-3">
+          <p className="text-end text-[10px] ">CONTRACTS</p>
+          <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-1">
+              <h3 className=" text-[10px]">CONTRACT/AGREEMENT MANAGEMENT</h3>
+              <p className="  text-[#ffffff57]">
+                ORGANISED, AUTOMATED DUCUMENT WORKFLOWS
+              </p>
+            </div>
+            <div className="flex flex-col gap-1">
+              <h3 className=" text-[10px]">DOCUMENT GENERATION</h3>
+              <p className="  text-[#ffffff57]">
+                GENERATE DOCUMENTS SEAMLESSLY THROUGH YOUR DEDICATED PORTAL
+              </p>
+            </div>
+            <div className="flex flex-col gap-1">
+              <h3 className=" text-[10px]">DATA SECURITY</h3>
+              <p className="  text-[#ffffff57]">
+                ALL SIGNATURES, CONTRACTS, AGREEMENTS, DOCUMENTS AND WITNESS
+                STATEMENTS KEPT UNDER AES 256-BIT ENCRYPTION FOR THE DURATION OF
+                YOUR MEMBERSHIP
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className=" flex flex-col gap-3">
+          <p className="text-end text-[10px] ">HISTORY</p>
+          <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-1">
+              <h3 className=" text-[10px]">DOC.SAFE</h3>
+              <p className="  text-[#ffffff57]">
+                SEARCH, VIEW, DOWNLOAD AND SHARE EVERY SIGNATURE, CONTRACT,
+                AGREEMENT, AND DOCUMENT FROM YOUR PORTAL
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className=" flex flex-col gap-2">
+          <p className="text-end text-[10px] ">more</p>
+          <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-1">
+              <h3 className=" text-[10px]">PAYMENTS</h3>
+              <p className="  text-[#ffffff57]">
+                AGREE, SIGN AND MAKE PAYMENT(S) IN A SINGLE CLICK
+              </p>
+            </div>
+            <div className="flex flex-col gap-1">
+              <h3 className=" text-[10px]">CLICKWRAPS</h3>
+              <p className="  text-[#ffffff57]">
+                CAPTURE CONSENT WITH A SINGLE CLICK
+              </p>
+            </div>
+            <div className="flex flex-col gap-1">
+              <h3 className=" text-[10px]">WEB FORMS</h3>
+              <p className="  text-[#ffffff57]">
+                INCORPORATE DATA COLLECTION AND SPEED UP SIGNING
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button className=" fixed bottom-4 hover:text-blue-400 transition-all duration-500 right-4 uppercase text-xs tracking-widest flex items-center gap-2">
         <span>all products</span>
         <Image
           className=" h-auto"

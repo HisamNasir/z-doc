@@ -13,7 +13,7 @@ const CountryFlag = () => {
     fetchCountryCode();
   }, []);
   return (
-    <div className=" uppercase">
+    <div className=" ">
       {countryCode && hasFlag(countryCode) && (
         <div>
           <Image

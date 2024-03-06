@@ -7,7 +7,7 @@ type LayoutProps = {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="uppercase tracking-widest text-xs leading-3 ">
+    <div className=" tracking-widest text-[9px] leading-[16px] ">
       <div className="absolute z-10">
         <LeftSidebar />
       </div>

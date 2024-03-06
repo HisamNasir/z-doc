@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  text-transform:capitalize;
+  text-transform: uppercase;
+}
+button{  text-transform:capitalize;}
 @keyframes pulse {
     0%, 100% {
       opacity: 1;

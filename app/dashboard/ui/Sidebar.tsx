@@ -44,7 +44,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
       <div className=" bg-black w-[34px] flex  h-full min-h-screen ">
         <div className=" grid grid-flow-row py-2 w-full justify-center items-center">
           <div
-            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
+            className=" text-white  text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 1 - Item 1",
@@ -70,7 +70,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             alt=""
           />
           <div
-            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
+            className=" text-white  text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 2 - Item 1",
@@ -96,7 +96,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             alt=""
           />
           <div
-            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
+            className=" text-white  text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
@@ -122,7 +122,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             alt=""
           />
           <div
-            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
+            className=" text-white  text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
@@ -148,7 +148,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             alt=""
           />
           <div
-            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
+            className=" text-white  text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
@@ -174,7 +174,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             alt=""
           />
           <div
-            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
+            className=" text-white  text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
@@ -200,7 +200,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = () => {
             alt=""
           />
           <div
-            className=" text-white uppercase text-xs cursor-pointer flex justify-center"
+            className=" text-white  text-xs cursor-pointer flex justify-center"
             onClick={() =>
               handleButtonClick([
                 "Submenu 3 - Item 1",
