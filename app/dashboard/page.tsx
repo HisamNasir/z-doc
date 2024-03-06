@@ -21,7 +21,7 @@ const Dashboard = (props: Props) => {
                 height={60}
                 src={"/Assets/ZDoc.svg"}
               />
-              <div className=" absolute w-full flex justify-center">
+              <div className=" absolute w-full flex justify-center bottom-0">
                 <Image
                   className="hidden bottom-0 md:flex items-end justify-center w-[120px] lg:w-[143px] 2xl:w-[183px]"
                   alt=""
