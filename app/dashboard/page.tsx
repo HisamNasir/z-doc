@@ -12,8 +12,8 @@ const Dashboard = (props: Props) => {
     <Layout>
       <div className="relative h-screen">
         <nav className=" py-11 px-16 ">
-          <div>
-            <div className=" relative">
+          <div className=" relative">
+            <div className=" h-[59px] flex relative items-center">
               <Image
                 className="fixed hidden sm:flex w-[70px] lg:w-[90px] xl:w-[129px]"
                 alt=""
@@ -22,7 +22,7 @@ const Dashboard = (props: Props) => {
                 src={"/Assets/ZDoc.svg"}
               />
               <Image
-                className=" w-[120px] absolute hidden left-[50%] right-[50%]  md:flex items-end justify-center lg:w-[143px] xl:w-[183px]"
+                className=" w-[120px] absolute hidden left-[50%] right-[50%] bottom-0  md:flex items-end justify-center lg:w-[143px] xl:w-[183px]"
                 alt=""
                 width={204}
                 height={50}
@@ -33,8 +33,7 @@ const Dashboard = (props: Props) => {
                 <ProfileButton />
               </div>
             </div>
-
-            <div className="grid gap-4 justify-end pt-12">
+            <div className="absolute top-16 right-0">
               <Image
                 className="w-[143px] md:w-[183px]"
                 alt=""
@@ -42,10 +41,10 @@ const Dashboard = (props: Props) => {
                 height={40}
                 src={"/Assets/zima.svg"}
               />
-              <h1 className="flex justify-end animate-pulse-slow">
-                try for free
-              </h1>
             </div>
+            <h1 className="absolute top-28 right-0 animate-pulse-slow">
+              try for free
+            </h1>
           </div>
         </nav>
         <Image
