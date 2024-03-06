@@ -7,7 +7,7 @@ const LocationDateFlag = () => {
     <div className=" ">
       <div className="w-full gap-10 flex items-center">
         <Clock />
-        <div className=" hidden md:block">
+        <div className=" hidden lg:block">
           <CountryFlag />
         </div>
       </div>
