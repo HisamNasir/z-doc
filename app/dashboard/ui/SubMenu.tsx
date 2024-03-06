@@ -7,7 +7,7 @@ interface SubMenuProps {
 
 const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
   return (
-    <div className=" p-2 pr-3 cursor-default flex flex-col justify-between pb-9 w-full h-full text-white relative ">
+    <div className=" p-2 pr-3 cursor-default flex flex-col justify-between pb-9 w-full h-full text-[4px] text-white relative ">
       <div className=" flex relative" id="content">
         <div className=" flex flex-col gap-1.5 2xl:gap-3.5 items-center  ">
           <Image
