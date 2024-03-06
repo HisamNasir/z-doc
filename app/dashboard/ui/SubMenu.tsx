@@ -5,7 +5,7 @@ interface SubMenuProps {
   items: string[];
 }
 
-const SubMenu: React.FC<SubMenuProps> = ({}) => {
+const SubMenu: React.FC<SubMenuProps> = ({ items }) => {
   return (
     <div className=" p-2 w-full h-full text-white relative">
       <Image
