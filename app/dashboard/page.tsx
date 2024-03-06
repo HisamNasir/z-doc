@@ -21,13 +21,15 @@ const Dashboard = (props: Props) => {
                 height={60}
                 src={"/Assets/ZDoc.svg"}
               />
-              <Image
-                className=" w-[120px] absolute hidden left-[50%] right-[50%] bottom-0  md:flex items-end justify-center lg:w-[143px] 2xl:w-[183px]"
-                alt=""
-                width={204}
-                height={50}
-                src={"/Assets/avav.svg"}
-              />
+              <div className=" absolute w-full flex justify-center">
+                <Image
+                  className="hidden bottom-0 md:flex items-end justify-center w-[120px] lg:w-[143px] 2xl:w-[183px]"
+                  alt=""
+                  width={204}
+                  height={50}
+                  src={"/Assets/avav.svg"}
+                />
+              </div>
               <div className="flex items-center gap-4 md:gap-6 lg:gap-10 absolute right-0">
                 <LocationDateFlag />
                 <ProfileButton />
